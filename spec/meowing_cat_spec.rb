@@ -3,7 +3,7 @@ require_relative '../lib/meowing_cat'
 
 describe "Cat" do
   let(:maru) {Cat.new}  # Look up what let does in RSpec
-  # https://www.relishapp.com/rspec/rspec-core/v/2-6/docs/helper-methods/let-and-let
+  #https://www.relishapp.com/rspec/rspec-core/v/2-6/docs/helper-methods/let-and-let
 
   it 'instantiates a new cat' do
     expect(maru).to be_a(Cat)
